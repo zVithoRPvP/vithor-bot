@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
-bot.login('NDQyMzI3NDQ4MDMwNDEyODEx.Dc98YA.gfyzRdZCuG5KgfOZlcougWZxiWg');
+bot.login(process.env.token);
 
 bot.on('ready', () => {
 
@@ -13,8 +13,8 @@ bot.on('ready', () => {
 
 bot.on('message', message => {
     if(message.content.startsWith('!ping')){
-        message.channel.send('Pong!')
-        if(message.member.roles.some(r=>["Administrator", "Moderator"].includes(r.name)) )     return message.reply("você não tem o cargo!")
+        message.channel.send('Pong!');
+       
     }
 })
 
