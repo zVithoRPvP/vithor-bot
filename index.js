@@ -7,8 +7,8 @@ bot.on('ready', () => {
     bot.user.setActivity("<help", {type: "PLAYING"});
     bot.user.setStatus('dnd');
     console.log('Bot rodando, informações:');
-    console.log('VithorBOT: ' + bot.user.username )
-    console.log( '442327448030412811: ' + bot.user.id)
+    console.log('VithorBOT: ' + bot.user.username );
+    console.log( '442327448030412811: ' + bot.user.id);
 })
 
 bot.on('message', message => {
