@@ -1,14 +1,23 @@
 {
-  "name": "meubot",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "discord.js": "^11.3.2"
+    "name": "meubot",
+    "description": "",
+    "version": "1.0.0",
+    "main": "release.js",
+    "scripts": {
+      "start": "node release.js"
+    },
+    "engines": {
+      "node": "8.9.4",
+      "npm": "5.6.0"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+(censura censura)"
+    },
+    "dependencies": {
+      "discord.js": "github:hydrabolt/discord.js"
+      
+      
+      
+        }
   }
-}
